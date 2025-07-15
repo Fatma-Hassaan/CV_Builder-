@@ -14,7 +14,6 @@ public class Position {
         this.description = description;
         this.include = include;
     }
-
     @Override
     public String toString() {
         return title + ", " + company + " (" + duration + ")";
